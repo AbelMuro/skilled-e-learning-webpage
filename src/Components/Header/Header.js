@@ -1,6 +1,5 @@
 import React from 'react';
 import icons from './icons';
-import images from './images';
 import * as styles from './styles.module.css';
 
 function Header () {
@@ -24,7 +23,7 @@ function Header () {
                     Get Started
                 </button>
             </section>
-            <img className={styles.image} src={images['hero']}/>
+            <img className={styles.image}/>
         </header>
     )
 }
