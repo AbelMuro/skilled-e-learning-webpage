@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'plus jakarta sans';
+    src: url('/public/fonts/PlusJakartaSans-VariableFont_wght.ttf');
+}
+
+*{
+    transition: all 0.2s linear;
+    box-sizing: border-box;
+}
+
+:root{
+    --font: 'plus jakarta sans';
+    --closest: 100;
+    --closer: 75;
+    --close: 50;
+    --far: 25;
+    --farthest: -1;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0px;
+}
