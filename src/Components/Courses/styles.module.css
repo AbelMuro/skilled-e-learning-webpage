@@ -1,0 +1,89 @@
+.container{
+    width: 1120px;
+    display: grid;
+    grid-template-columns: repeat(3, 352px);
+    column-gap: 32px;
+    row-gap: 84px;
+    margin: 0px auto 144px auto;
+}
+
+.message{
+    height: 322px;
+    display: flex;
+    padding: 64px 32px 40px 32px;
+    flex-direction: column;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+
+.message > h1{
+    color: var(--color-white, #FFF);
+    font-family: var(--font);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 38.4px */
+    margin: 0px;
+}
+
+.course{
+    min-height: 322px;
+    display: flex;
+    padding: 64px 32px 40px 32px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+    position: relative;
+}
+
+.course > img{
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 32px;
+    top: -28px;
+}
+
+.course > strong{
+    color: #13183F;
+    font-family: var(--font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 28.8px */
+}
+
+.course > p{
+    color: var(--color-grey, #83869A);
+    font-family: var(--font);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    margin: 0px;
+}
+
+.course > button{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    align-items: center;
+    color: #F74780;
+    cursor: pointer;
+    font-family: var(--font);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 27px */
+}
+
+.course > button:hover{
+    color: #FFA7C3;
+}
