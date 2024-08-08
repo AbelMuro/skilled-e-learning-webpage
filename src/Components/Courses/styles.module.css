@@ -1,10 +1,16 @@
+.background{
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+    padding-bottom: 144px;
+}
+
+
 .container{
     width: 1120px;
     display: grid;
     grid-template-columns: repeat(3, 352px);
     column-gap: 32px;
     row-gap: 84px;
-    margin: 0px auto 144px auto;
+    margin: auto;
 }
 
 .message{
@@ -100,7 +106,6 @@
         grid-template-columns: repeat(2, 1fr);
         column-gap: 24px;
         row-gap: 60px;
-        margin: 0px auto 144px auto;
     }
     .message > h1{
         font-size: 1.5rem;
@@ -112,10 +117,14 @@
 }
 
 @media(max-width: 650px){
+    .background{
+        padding-bottom: 80px;
+    }
+
     .container{
         grid-template-columns: 1fr;
         column-gap: 0px;
-        margin: 0px auto 80px auto;
+        margin: auto;
     }
 
     .message{
