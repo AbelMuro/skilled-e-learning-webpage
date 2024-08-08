@@ -8,6 +8,27 @@
     column-gap: 119px;
 }
 
+.heroDesktop{
+    content: url('./images/image-hero-desktop@2x.png');
+    width: 0px;
+    height: 0px;
+    position: absolute;
+}
+
+.heroTablet{
+    content: url('./images/image-hero-tablet@2x.png');
+    width: 0px;
+    height: 0px;
+    position: absolute;
+}
+
+.heroMobile{
+    content: url('./images/image-hero-mobile@2x.png');
+    width: 0px;
+    height: 0px;
+    position: absolute;
+}
+
 .logo{
     width: 111px;
     height: 28px;
@@ -178,7 +199,7 @@
         height: 320px;
         grid-column: 1/3;
         grid-row: 3/4;
-        content: url('./images/image-hero-mobile.png');
+        content: url('./images/image-hero-mobile@2x.png');
         justify-self: center;
     }
 }

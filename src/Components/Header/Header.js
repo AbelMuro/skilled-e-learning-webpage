@@ -4,6 +4,10 @@ import * as styles from './styles.module.css';
 
 function Header () {
     return(
+        <>
+        <img className={styles.heroDesktop}/>
+        <img className={styles.heroTablet}/>
+        <img className={styles.heroMobile}/>
         <header className={styles.container}>
             <img className={styles.logo} src={icons['logo']}/>
             <button className={styles.start_button}>
@@ -24,7 +28,9 @@ function Header () {
                 </button>
             </section>
             <img className={styles.image}/>
-        </header>
+        </header>        
+        </>
+
     )
 }
 
