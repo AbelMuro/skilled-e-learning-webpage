@@ -51,7 +51,7 @@
 .course > strong{
     color: #13183F;
     font-family: var(--font);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 800;
     line-height: 120%; /* 28.8px */
@@ -86,4 +86,47 @@
 
 .course > button:hover{
     color: #FFA7C3;
+}
+
+@media(max-width: 1200px){
+    .container{
+        width: 90%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(max-width: 850px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 24px;
+        row-gap: 60px;
+        margin: 0px auto 144px auto;
+    }
+    .message > h1{
+        font-size: 1.5rem;
+    }
+
+    .course > strong{
+        font-size: 1.25rem;
+    }
+}
+
+@media(max-width: 650px){
+    .container{
+        grid-template-columns: 1fr;
+        column-gap: 0px;
+        margin: 0px auto 80px auto;
+    }
+
+    .message{
+        height: 122px;
+        padding: 0px 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .course > p{
+        font-size: 1rem;
+    }
 }

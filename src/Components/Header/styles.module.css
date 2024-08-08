@@ -6,7 +6,6 @@
     grid-template-rows: 59px 560px;
     row-gap: 88px;
     column-gap: 119px;
-    
 }
 
 .logo{
@@ -151,7 +150,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto auto auto;
         row-gap: 0px;
-        margin: 16px auto 128px auto;
+        margin: 16px auto 30px auto;
     }
     .logo{
         width: 79px;
